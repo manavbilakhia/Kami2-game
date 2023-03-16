@@ -1,0 +1,97 @@
+<diagram program="umletino" version="15.0.0"><zoom_level>12</zoom_level><help_text>Space for diagram notes</help_text><element><id>UMLClass</id><coordinates><x>996</x><y>336</y><w>252</w><h>84</h></coordinates><panel_attributes>_Interface: BoardObserver_
+--
++ update()</panel_attributes><additional_attributes></additional_attributes></element><element><id>Relation</id><coordinates><x>792</x><y>600</y><w>144</w><h>36</h></coordinates><panel_attributes>lt=&lt;-</panel_attributes><additional_attributes>11;10;100;10</additional_attributes></element><element><id>Relation</id><coordinates><x>792</x><y>660</y><w>144</w><h>36</h></coordinates><panel_attributes>lt=&lt;&lt;&lt;&lt;-</panel_attributes><additional_attributes>11;10;100;10</additional_attributes></element><element><id>Relation</id><coordinates><x>1104</x><y>408</y><w>36</w><h>72</h></coordinates><panel_attributes>lt=&lt;&lt;-</panel_attributes><additional_attributes>10;10;10;40</additional_attributes></element><element><id>UMLClass</id><coordinates><x>1188</x><y>0</y><w>252</w><h>156</h></coordinates><panel_attributes>_Class: KamiApp_
+
+--
++ setFixedScreenSize()
++ start()
+--
+Responsibilities
+-- start the javaFX toolkit
+-- create a painter for the game
+</panel_attributes><additional_attributes></additional_attributes></element><element><id>UMLClass</id><coordinates><x>1416</x><y>288</y><w>324</w><h>240</h></coordinates><panel_attributes>_Class: BoardIO_
+
+--
++ saveBoard()
++ loadBoard()
++ generateDefaultBoard()
++ getListOfBoards()
+--
+Responsibilities
+-- generate a default blank board for editing
+-- load board files into GameBoard classes
+-- save GameBoard classes into files
+-- get and return a list of names of files in
+the levels directory</panel_attributes><additional_attributes></additional_attributes></element><element><id>UMLClass</id><coordinates><x>396</x><y>144</y><w>252</w><h>192</h></coordinates><panel_attributes>_CoordinatePoint_
+--
+- row: int
+- col: int
+--
++ getRow()
++ getCol()
+--
+Responsibilities
+-- to package a row and column
+into one class for convenience in the
+flood fill algorithm
+</panel_attributes><additional_attributes></additional_attributes></element><element><id>Relation</id><coordinates><x>1428</x><y>120</y><w>84</w><h>192</h></coordinates><panel_attributes>lt=&lt;-</panel_attributes><additional_attributes>50;140;50;10;10;10</additional_attributes></element><element><id>Relation</id><coordinates><x>1320</x><y>144</y><w>72</w><h>396</h></coordinates><panel_attributes>lt=&lt;-</panel_attributes><additional_attributes>10;310;40;310;40;10</additional_attributes></element><element><id>Relation</id><coordinates><x>132</x><y>324</y><w>408</w><h>108</h></coordinates><panel_attributes>lt=&lt;-</panel_attributes><additional_attributes>320;10;320;50;10;50;10;70</additional_attributes></element><element><id>UMLClass</id><coordinates><x>1416</x><y>588</y><w>324</w><h>156</h></coordinates><panel_attributes>_Class: BoardFactory_
+
+--
++ boardFactory()
+--
+Responsibilities
+-- provide a parameterized factory method
+for creating subclasses of GameBoard that
+implement different properties.</panel_attributes><additional_attributes></additional_attributes></element><element><id>Relation</id><coordinates><x>1320</x><y>672</y><w>120</w><h>36</h></coordinates><panel_attributes>lt=&lt;-</panel_attributes><additional_attributes>80;10;10;10</additional_attributes></element><element><id>Relation</id><coordinates><x>1584</x><y>516</y><w>36</w><h>96</h></coordinates><panel_attributes>lt=&lt;-</panel_attributes><additional_attributes>10;60;10;10</additional_attributes></element><element><id>Relation</id><coordinates><x>1320</x><y>516</y><w>180</w><h>72</h></coordinates><panel_attributes>lt=&lt;-</panel_attributes><additional_attributes>130;10;130;40;10;40</additional_attributes></element><element><id>UMLClass</id><coordinates><x>480</x><y>564</y><w>324</w><h>204</h></coordinates><panel_attributes>_Class: GameBoardSquare_
+--
+- buttonWidth: int
+--
++ getRowFromCoordinate(rCoord: double)
++ getColumnFromCoordinate(cCoord: double)
++ getNeighbors(current: CoordinatePoint)
++ makeShape(row: int, col: int): Shape
+--
+Responsibilities
+-- provide a usable implementation of the
+abstract GameBoard which uses squares
+as the shapes to generate</panel_attributes><additional_attributes></additional_attributes></element><element><id>Relation</id><coordinates><x>312</x><y>636</y><w>192</w><h>36</h></coordinates><panel_attributes>lt=&lt;&lt;-</panel_attributes><additional_attributes>10;10;140;10</additional_attributes></element><element><id>Relation</id><coordinates><x>564</x><y>324</y><w>36</w><h>264</h></coordinates><panel_attributes>lt=&lt;-</panel_attributes><additional_attributes>10;10;10;200</additional_attributes></element><element><id>UMLClass</id><coordinates><x>0</x><y>408</y><w>324</w><h>468</h></coordinates><panel_attributes>_/Abstract Class: GameBoard/_
+--
+- board: String[][]
+- hint: String
+- isEditing: boolean
+- levelName: String
+- maxMoves: int
+- observers: ArrayList&lt;BoardObserver&gt;
+- boardType: String
+--
++ makeMove(mouseX: double, mouseY: double)
++ floodFill (toFill: String)
++ isWon(): Boolean
++ resetMoves()
++ setBoard(toSet: String[][])
++ getSelectedColor(): String
++ changeSelectedColor()
+
+/+ getRowFromCoordinate(rCoord: double)/
+/+ getColumnFromCoordinate(cCoord: double)/
+/+ getNeighbors(current: CoordinatePoint)/
+/+ makeShape(row: int, col: int): Shape/
+--
+Responsibilities
+-- to provide an abstract class with the base 
+functions of a GameBoard that all GameBoard
+objects will use</panel_attributes><additional_attributes></additional_attributes></element><element><id>UMLClass</id><coordinates><x>912</x><y>456</y><w>420</w><h>240</h></coordinates><panel_attributes>_Class: BoardPainterShape_
+--
+- boardPainter: Group
+- game: GameBoard
+- colorTranslationTable: HashMap
+--
++ initScene(int width, int height, Stage primaryStage): Scene 
++ loadBoard(gameLoaded: GameBoard)
++ update()
++ updateGame(double x, double y)
+--
+Responsibilities
+-- provide an interface for controlling and viewing 
+the game boards.
+</panel_attributes><additional_attributes></additional_attributes></element></diagram>

@@ -1,0 +1,71 @@
+
+
+#WinLabel {
+    -fx-background-color:white;
+
+    -fx-border-color:black;
+    -fx-border-width:4px;
+    -fx-border-radius:0px;
+
+    -fx-font-size:40px;
+    -fx-padding:0.5em;
+}
+
+#BoardPainter {
+    -fx-background-color: gray; 
+    -fx-alignment: center;
+}
+
+#MovesDisplay {
+    -fx-background-color:white; 
+    -fx-border-color:black;
+    -fx-border-width:4px;
+    -fx-border-radius:0px;
+
+    -fx-font-size:40px;
+    -fx-padding:0.2em;
+    -fx-alignment: center;
+}
+
+#RootScene {
+    -fx-background-color: linear-gradient(to bottom right, #ff7f50, #5079ff);
+
+}
+
+#ColorChangeButton {
+    -fx-border-color: black;
+    -fx-border-width: 2px;
+    -fx-font-size: 20px;
+}
+
+.button {
+    -fx-background-color:#50ffd7;
+    -fx-border-color: black;
+    -fx-border-width: 2px;
+
+    -fx-border-radius:10px;
+
+    -fx-font-size:20px;
+    -fx-padding:0.5em;
+    -fx-background-insets: 2;
+}
+
+.button:pressed:hover {
+    -fx-scale-y: 0.93;
+    -fx-scale-x: 0.93;
+}
+
+.button:hover {
+    -fx-background-color: #50d0ff;
+
+}
+
+#HintLabel {
+    -fx-border-color: black;
+    -fx-border-width: 2px;
+    -fx-background-color: white;
+}
+
+
+
+

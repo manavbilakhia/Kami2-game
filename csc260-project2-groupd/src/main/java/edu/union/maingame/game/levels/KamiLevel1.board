@@ -1,0 +1,27 @@
+type:square
+name:Kami_level_1
+rows:20
+cols:25
+maxmoves:1
+hint:choose the tan color and press on the blue side
+palette:blue,tan,
+row0:blue,blue,blue,blue,blue,blue,blue,blue,blue,blue,blue,blue,blue,tan,tan,tan,tan,tan,tan,tan,tan,tan,tan,tan,tan,
+row1:blue,blue,blue,blue,blue,blue,blue,blue,blue,blue,blue,blue,blue,tan,tan,tan,tan,tan,tan,tan,tan,tan,tan,tan,tan,
+row2:blue,blue,blue,blue,blue,blue,blue,blue,blue,blue,blue,blue,blue,tan,tan,tan,tan,tan,tan,tan,tan,tan,tan,tan,tan,
+row3:blue,blue,blue,blue,blue,blue,blue,blue,blue,blue,blue,blue,blue,tan,tan,tan,tan,tan,tan,tan,tan,tan,tan,tan,tan,
+row4:blue,blue,blue,blue,blue,blue,blue,blue,blue,blue,blue,blue,blue,tan,tan,tan,tan,tan,tan,tan,tan,tan,tan,tan,tan,
+row5:blue,blue,blue,blue,blue,blue,blue,blue,blue,blue,blue,blue,blue,tan,tan,tan,tan,tan,tan,tan,tan,tan,tan,tan,tan,
+row6:blue,blue,blue,blue,blue,blue,blue,blue,blue,blue,blue,blue,blue,tan,tan,tan,tan,tan,tan,tan,tan,tan,tan,tan,tan,
+row7:blue,blue,blue,blue,blue,blue,blue,blue,blue,blue,blue,blue,blue,tan,tan,tan,tan,tan,tan,tan,tan,tan,tan,tan,tan,
+row8:blue,blue,blue,blue,blue,blue,blue,blue,blue,blue,blue,blue,blue,tan,tan,tan,tan,tan,tan,tan,tan,tan,tan,tan,tan,
+row9:blue,blue,blue,blue,blue,blue,blue,blue,blue,blue,blue,blue,blue,tan,tan,tan,tan,tan,tan,tan,tan,tan,tan,tan,tan,
+row10:blue,blue,blue,blue,blue,blue,blue,blue,blue,blue,blue,blue,blue,tan,tan,tan,tan,tan,tan,tan,tan,tan,tan,tan,tan,
+row11:blue,blue,blue,blue,blue,blue,blue,blue,blue,blue,blue,blue,blue,tan,tan,tan,tan,tan,tan,tan,tan,tan,tan,tan,tan,
+row12:blue,blue,blue,blue,blue,blue,blue,blue,blue,blue,blue,blue,blue,tan,tan,tan,tan,tan,tan,tan,tan,tan,tan,tan,tan,
+row13:blue,blue,blue,blue,blue,blue,blue,blue,blue,blue,blue,blue,blue,tan,tan,tan,tan,tan,tan,tan,tan,tan,tan,tan,tan,
+row14:blue,blue,blue,blue,blue,blue,blue,blue,blue,blue,blue,blue,blue,tan,tan,tan,tan,tan,tan,tan,tan,tan,tan,tan,tan,
+row15:blue,blue,blue,blue,blue,blue,blue,blue,blue,blue,blue,blue,blue,tan,tan,tan,tan,tan,tan,tan,tan,tan,tan,tan,tan,
+row16:blue,blue,blue,blue,blue,blue,blue,blue,blue,blue,blue,blue,blue,tan,tan,tan,tan,tan,tan,tan,tan,tan,tan,tan,tan,
+row17:blue,blue,blue,blue,blue,blue,blue,blue,blue,blue,blue,blue,blue,tan,tan,tan,tan,tan,tan,tan,tan,tan,tan,tan,tan,
+row18:blue,blue,blue,blue,blue,blue,blue,blue,blue,blue,blue,blue,blue,tan,tan,tan,tan,tan,tan,tan,tan,tan,tan,tan,tan,
+row19:blue,blue,blue,blue,blue,blue,blue,blue,blue,blue,blue,blue,blue,tan,tan,tan,tan,tan,tan,tan,tan,tan,tan,tan,tan,

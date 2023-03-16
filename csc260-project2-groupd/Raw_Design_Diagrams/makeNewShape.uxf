@@ -1,0 +1,58 @@
+<diagram program="umletino" version="15.0.0"><zoom_level>12</zoom_level><help_text>Space for diagram notes</help_text><element><id>UMLClass</id><coordinates><x>936</x><y>348</y><w>420</w><h>180</h></coordinates><panel_attributes>_Class: BoardPainterShape_
+--
+- boardPainter: Group
+- game: GameBoard
+- colorTranslationTable: HashMap
+--
++ initScene(int width, int height, Stage primaryStage): Scene 
++ loadBoard(gameLoaded: GameBoard)
++ update()
++ updateGame(double x, double y)
+
+</panel_attributes><additional_attributes></additional_attributes></element><element><id>UMLClass</id><coordinates><x>24</x><y>264</y><w>324</w><h>396</h></coordinates><panel_attributes>_/Abstract Class: GameBoard/_
+--
+- board: String[][]
+- hint: String
+- isEditing: boolean
+- levelName: String
+- maxMoves: int
+- observers: ArrayList&lt;BoardObserver&gt;
+- boardType: String
+--
++ makeMove(mouseX: double, mouseY: double)
++ floodFill (toFill: String)
++ isWon(): Boolean
++ resetMoves()
++ setBoard(toSet: String[][])
++ getSelectedColor(): String
++ changeSelectedColor()
+
+/+ getRowFromCoordinate(rCoord: double)/
+/+ getColumnFromCoordinate(cCoord: double)/
+/+ getNeighbors(current: CoordinatePoint)/
+/+ makeShape(row: int, col: int): Shape/
+</panel_attributes><additional_attributes></additional_attributes></element><element><id>Relation</id><coordinates><x>756</x><y>348</y><w>204</w><h>36</h></coordinates><panel_attributes>lt=&lt;-</panel_attributes><additional_attributes>11;10;150;10</additional_attributes></element><element><id>Relation</id><coordinates><x>756</x><y>372</y><w>204</w><h>36</h></coordinates><panel_attributes>lt=&lt;&lt;&lt;&lt;-</panel_attributes><additional_attributes>11;10;150;10</additional_attributes></element><element><id>UMLClass</id><coordinates><x>444</x><y>300</y><w>324</w><h>144</h></coordinates><panel_attributes>_Class: GameBoardSquare_
+--
+- buttonWidth: int
+--
++ getRowFromCoordinate(rCoord: double)
++ getColumnFromCoordinate(cCoord: double)
++ getNeighbors(current: CoordinatePoint)
++ makeShape(row: int, col: int): Shape
+</panel_attributes><additional_attributes></additional_attributes></element><element><id>Relation</id><coordinates><x>336</x><y>360</y><w>132</w><h>36</h></coordinates><panel_attributes>lt=&lt;&lt;-</panel_attributes><additional_attributes>10;10;90;10</additional_attributes></element><element><id>UMLClass</id><coordinates><x>852</x><y>624</y><w>324</w><h>156</h></coordinates><panel_attributes>_Class: BoardFactory_
+
+--
++ boardFactory()
+--
+Changes needed to add new shapes
+-- add code to return the right board 
+construction for GameBoardNewShape
+when given the appropriate parameter</panel_attributes><additional_attributes></additional_attributes></element><element><id>UMLClass</id><coordinates><x>444</x><y>468</y><w>324</w><h>144</h></coordinates><panel_attributes>_Class: GameBoardNewShape_
+--
++ getRowFromCoordinate(rCoord: double)
++ getColumnFromCoordinate(cCoord: double)
++ getNeighbors(current: CoordinatePoint)
++ makeShape(row: int, col: int): Shape
+--
+Changes needed to add new shapes
+-- make a new subclass of GameBoard</panel_attributes><additional_attributes></additional_attributes></element><element><id>Relation</id><coordinates><x>336</x><y>528</y><w>132</w><h>36</h></coordinates><panel_attributes>lt=&lt;&lt;-</panel_attributes><additional_attributes>10;10;90;10</additional_attributes></element><element><id>Relation</id><coordinates><x>756</x><y>480</y><w>204</w><h>36</h></coordinates><panel_attributes>lt=&lt;-</panel_attributes><additional_attributes>11;10;150;10</additional_attributes></element><element><id>Relation</id><coordinates><x>756</x><y>504</y><w>204</w><h>36</h></coordinates><panel_attributes>lt=&lt;&lt;&lt;&lt;-</panel_attributes><additional_attributes>11;10;150;10</additional_attributes></element></diagram>

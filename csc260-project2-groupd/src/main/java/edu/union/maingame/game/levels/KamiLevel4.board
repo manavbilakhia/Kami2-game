@@ -1,0 +1,27 @@
+type:square
+name:KamiBoard4a
+rows:20
+cols:25
+maxmoves:2
+hint:Start in the middle
+palette:red,green,gray,
+row0:red,red,red,red,red,red,red,red,red,red,red,red,red,red,red,red,red,red,red,red,red,red,red,red,red,
+row1:red,red,red,red,red,red,red,red,red,red,red,red,red,red,red,red,red,red,red,red,red,red,red,red,red,
+row2:red,red,green,green,green,green,green,green,green,green,green,green,green,green,green,green,green,green,green,green,green,green,green,red,red,
+row3:red,red,green,green,green,green,green,green,green,green,green,green,green,green,green,green,green,green,green,green,green,green,green,red,red,
+row4:red,red,green,green,green,green,green,green,green,green,green,green,green,green,green,green,green,green,green,green,green,green,green,red,red,
+row5:red,red,green,green,green,green,green,green,green,green,green,green,green,green,green,green,green,green,green,green,green,green,green,red,red,
+row6:red,red,gray,gray,gray,gray,gray,gray,gray,gray,gray,gray,gray,gray,gray,gray,gray,gray,gray,gray,gray,gray,gray,red,red,
+row7:red,red,gray,gray,gray,gray,gray,gray,gray,gray,gray,gray,gray,gray,gray,gray,gray,gray,gray,gray,gray,gray,gray,red,red,
+row8:red,red,gray,gray,gray,gray,gray,gray,gray,gray,gray,gray,gray,gray,gray,gray,gray,gray,gray,gray,gray,gray,gray,red,red,
+row9:red,red,gray,gray,gray,gray,gray,gray,gray,gray,gray,gray,gray,gray,gray,gray,gray,gray,gray,gray,gray,gray,gray,red,red,
+row10:red,red,gray,gray,gray,gray,gray,gray,gray,gray,gray,gray,gray,gray,gray,gray,gray,gray,gray,gray,gray,gray,gray,red,red,
+row11:red,red,gray,gray,gray,gray,gray,gray,gray,gray,gray,gray,gray,gray,gray,gray,gray,gray,gray,gray,gray,gray,gray,red,red,
+row12:red,red,gray,gray,gray,gray,gray,gray,gray,gray,gray,gray,gray,gray,gray,gray,gray,gray,gray,gray,gray,gray,gray,red,red,
+row13:red,red,gray,gray,gray,gray,gray,gray,gray,gray,gray,gray,gray,gray,gray,gray,gray,gray,gray,gray,gray,gray,gray,red,red,
+row14:red,red,green,green,green,green,green,green,green,green,green,green,green,green,green,green,green,green,green,green,green,green,green,red,red,
+row15:red,red,green,green,green,green,green,green,green,green,green,green,green,green,green,green,green,green,green,green,green,green,green,red,red,
+row16:red,red,green,green,green,green,green,green,green,green,green,green,green,green,green,green,green,green,green,green,green,green,green,red,red,
+row17:red,red,green,green,green,green,green,green,green,green,green,green,green,green,green,green,green,green,green,green,green,green,green,red,red,
+row18:red,red,red,red,red,red,red,red,red,red,red,red,red,red,red,red,red,red,red,red,red,red,red,red,red,
+row19:red,red,red,red,red,red,red,red,red,red,red,red,red,red,red,red,red,red,red,red,red,red,red,red,red,

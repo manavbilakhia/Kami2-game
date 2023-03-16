@@ -1,0 +1,27 @@
+type:square
+name:Kami_level_1
+rows:20
+cols:25
+maxmoves:2
+hint: choose the blue color and click on all regions that are not blue
+palette:red,blue,purple
+row0:red,red,red,red,red,red,red,red,red,red,red,red,red,red,red,red,red,red,red,red,red,red,red,red,red,
+row1:red,red,red,red,red,red,red,red,red,red,red,red,red,red,red,red,red,red,red,red,red,red,red,red,red,
+row2:red,red,red,red,red,red,red,red,red,red,red,red,red,red,red,red,red,red,red,red,red,red,red,red,red,
+row3:red,red,red,red,red,red,red,red,red,red,red,red,red,red,red,red,red,red,red,red,red,red,red,red,red,
+row4:red,red,red,red,red,red,red,red,red,red,red,red,red,red,red,red,red,red,red,red,red,red,red,red,red,
+row5:red,red,red,red,red,red,red,red,red,red,red,red,red,red,red,red,red,red,red,red,red,red,red,red,red,
+row6:blue,blue,blue,blue,blue,blue,blue,blue,blue,blue,blue,blue,blue,blue,blue,blue,blue,blue,blue,blue,blue,blue,blue,blue,blue,
+row7:blue,blue,blue,blue,blue,blue,blue,blue,blue,blue,blue,blue,blue,blue,blue,blue,blue,blue,blue,blue,blue,blue,blue,blue,blue,
+row8:blue,blue,blue,blue,blue,blue,blue,blue,blue,blue,blue,blue,blue,blue,blue,blue,blue,blue,blue,blue,blue,blue,blue,blue,blue,
+row9:blue,blue,blue,blue,blue,blue,blue,blue,blue,blue,blue,blue,blue,blue,blue,blue,blue,blue,blue,blue,blue,blue,blue,blue,blue,
+row10:blue,blue,blue,blue,blue,blue,blue,blue,blue,blue,blue,blue,blue,blue,blue,blue,blue,blue,blue,blue,blue,blue,blue,blue,blue,
+row11:blue,blue,blue,blue,blue,blue,blue,blue,blue,blue,blue,blue,blue,blue,blue,blue,blue,blue,blue,blue,blue,blue,blue,blue,blue,
+row12:blue,blue,blue,blue,blue,blue,blue,blue,blue,blue,blue,blue,blue,blue,blue,blue,blue,blue,blue,blue,blue,blue,blue,blue,blue,
+row13:blue,blue,blue,blue,blue,blue,blue,blue,blue,blue,blue,blue,blue,blue,blue,blue,blue,blue,blue,blue,blue,blue,blue,blue,blue,
+row14:purple,purple,purple,purple,purple,purple,purple,purple,purple,purple,purple,purple,purple,purple,purple,purple,purple,purple,purple,purple,purple,purple,purple,purple,purple,
+row15:purple,purple,purple,purple,purple,purple,purple,purple,purple,purple,purple,purple,purple,purple,purple,purple,purple,purple,purple,purple,purple,purple,purple,purple,purple,
+row16:purple,purple,purple,purple,purple,purple,purple,purple,purple,purple,purple,purple,purple,purple,purple,purple,purple,purple,purple,purple,purple,purple,purple,purple,purple,
+row17:purple,purple,purple,purple,purple,purple,purple,purple,purple,purple,purple,purple,purple,purple,purple,purple,purple,purple,purple,purple,purple,purple,purple,purple,purple,
+row18:purple,purple,purple,purple,purple,purple,purple,purple,purple,purple,purple,purple,purple,purple,purple,purple,purple,purple,purple,purple,purple,purple,purple,purple,purple,
+row19:purple,purple,purple,purple,purple,purple,purple,purple,purple,purple,purple,purple,purple,purple,purple,purple,purple,purple,purple,purple,purple,purple,purple,purple,purple,

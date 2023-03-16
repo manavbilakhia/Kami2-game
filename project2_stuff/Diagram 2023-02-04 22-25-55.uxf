@@ -1,0 +1,9 @@
+<diagram program="umletino" version="15.0.0"><zoom_level>10</zoom_level><element><id>UMLClass</id><coordinates><x>850</x><y>480</y><w>360</w><h>130</h></coordinates><panel_attributes>Package::edu.union.maingame.game.file_io 
+class: BoardIO
+--
+- paletteOfAll:String
+--
++ saveBoard (toSave: GameBoard, saveLoc: File)
++ loadBoard (toLoad: File, editing: boolean):GameBoard
++generateDefaultBoard():GameBoard
++getListOfBoards():String</panel_attributes><additional_attributes></additional_attributes></element></diagram>

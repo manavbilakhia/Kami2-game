@@ -1,0 +1,13 @@
+Manav (bilakhim)
+
+Git Usage and Project Structure (18/20)
+---------------------------------------
+
+-2: commit messages not very detailed.
+
+
+Code and Test Quality (35/50)
+-----------------------------
+
+Failures found IN your code  : 30
+Failures found BY your tests : 27

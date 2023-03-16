@@ -1,0 +1,27 @@
+type:square
+name:KamiLevel3
+rows:20
+cols:25
+maxmoves:2
+hint:FIrst select tan color and click on the orange secdtion and then on the red section
+palette:red,orange,tan,
+row0:red,red,red,red,red,red,red,red,red,red,red,red,red,red,red,red,red,red,red,red,red,red,red,red,red,
+row1:red,red,red,red,red,red,red,red,red,red,red,red,red,red,red,red,red,red,red,red,red,red,red,red,red,
+row2:red,red,orange,orange,orange,orange,orange,orange,orange,orange,orange,orange,orange,orange,orange,orange,orange,orange,orange,orange,orange,orange,orange,red,red,
+row3:red,red,orange,orange,orange,orange,orange,orange,orange,orange,orange,orange,orange,orange,orange,orange,orange,orange,orange,orange,orange,orange,orange,red,red,
+row4:red,red,orange,orange,orange,orange,orange,orange,orange,orange,orange,orange,orange,orange,orange,orange,orange,orange,orange,orange,orange,orange,orange,red,red,
+row5:red,red,orange,orange,orange,orange,orange,orange,orange,orange,orange,orange,orange,orange,orange,orange,orange,orange,orange,orange,orange,orange,orange,red,red,
+row6:red,red,orange,orange,orange,orange,orange,orange,orange,orange,orange,orange,orange,orange,orange,orange,orange,orange,orange,orange,orange,orange,orange,red,red,
+row7:red,red,orange,orange,orange,orange,orange,orange,orange,orange,orange,orange,orange,orange,orange,orange,orange,orange,orange,orange,orange,orange,orange,red,red,
+row8:red,red,orange,orange,orange,orange,orange,orange,orange,orange,orange,orange,orange,orange,orange,orange,orange,orange,orange,orange,orange,orange,orange,red,red,
+row9:red,red,orange,orange,orange,orange,orange,orange,orange,orange,orange,orange,orange,orange,orange,orange,orange,orange,orange,orange,orange,orange,orange,red,red,
+row10:red,red,tan,tan,tan,tan,tan,tan,tan,tan,tan,tan,tan,tan,tan,tan,tan,tan,tan,tan,tan,tan,tan,red,red,
+row11:red,red,tan,tan,tan,tan,tan,tan,tan,tan,tan,tan,tan,tan,tan,tan,tan,tan,tan,tan,tan,tan,tan,red,red,
+row12:red,red,tan,tan,tan,tan,tan,tan,tan,tan,tan,tan,tan,tan,tan,tan,tan,tan,tan,tan,tan,tan,tan,red,red,
+row13:red,red,tan,tan,tan,tan,tan,tan,tan,tan,tan,tan,tan,tan,tan,tan,tan,tan,tan,tan,tan,tan,tan,red,red,
+row14:red,red,tan,tan,tan,tan,tan,tan,tan,tan,tan,tan,tan,tan,tan,tan,tan,tan,tan,tan,tan,tan,tan,red,red,
+row15:red,red,tan,tan,tan,tan,tan,tan,tan,tan,tan,tan,tan,tan,tan,tan,tan,tan,tan,tan,tan,tan,tan,red,red,
+row16:red,red,tan,tan,tan,tan,tan,tan,tan,tan,tan,tan,tan,tan,tan,tan,tan,tan,tan,tan,tan,tan,tan,red,red,
+row17:red,red,tan,tan,tan,tan,tan,tan,tan,tan,tan,tan,tan,tan,tan,tan,tan,tan,tan,tan,tan,tan,tan,red,red,
+row18:red,red,red,red,red,red,red,red,red,red,red,red,red,red,red,red,red,red,red,red,red,red,red,red,red,
+row19:red,red,red,red,red,red,red,red,red,red,red,red,red,red,red,red,red,red,red,red,red,red,red,red,red,

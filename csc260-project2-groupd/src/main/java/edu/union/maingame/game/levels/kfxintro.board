@@ -1,0 +1,27 @@
+type:square
+name:TempName
+rows:20
+cols:25
+maxmoves:2
+hint:This is a hint! it's really long and serves both as a formatting test and as a way to say hey! you should start with gray first and then tan!
+palette:tan,gray,
+row0:tan,tan,tan,tan,tan,tan,tan,tan,gray,tan,gray,tan,gray,gray,gray,tan,gray,tan,tan,gray,tan,gray,gray,gray,tan,
+row1:tan,tan,tan,tan,tan,tan,tan,tan,gray,gray,tan,tan,gray,tan,gray,tan,gray,gray,gray,gray,tan,tan,gray,tan,tan,
+row2:tan,tan,tan,tan,tan,tan,tan,tan,gray,gray,tan,tan,gray,gray,gray,tan,gray,tan,tan,gray,tan,tan,gray,tan,tan,
+row3:tan,tan,tan,tan,tan,tan,tan,tan,gray,tan,gray,tan,gray,tan,gray,tan,gray,tan,tan,gray,tan,gray,gray,gray,tan,
+row4:tan,tan,tan,tan,tan,tan,tan,tan,tan,tan,tan,tan,tan,tan,tan,tan,tan,tan,tan,tan,tan,tan,tan,tan,tan,
+row5:tan,tan,tan,tan,tan,gray,gray,gray,gray,gray,gray,gray,tan,tan,gray,tan,tan,tan,tan,tan,tan,tan,gray,tan,tan,
+row6:tan,tan,tan,tan,tan,gray,gray,gray,gray,gray,gray,gray,tan,tan,gray,gray,tan,tan,tan,tan,tan,gray,gray,tan,tan,
+row7:tan,tan,tan,tan,tan,gray,gray,tan,tan,tan,tan,tan,tan,tan,tan,gray,gray,tan,tan,tan,gray,gray,tan,tan,tan,
+row8:tan,tan,tan,tan,tan,gray,gray,tan,tan,tan,tan,tan,tan,tan,tan,tan,gray,gray,tan,gray,gray,tan,tan,tan,tan,
+row9:tan,tan,tan,tan,tan,gray,gray,gray,gray,gray,tan,tan,tan,tan,tan,tan,tan,gray,gray,gray,tan,tan,tan,tan,tan,
+row10:tan,tan,tan,tan,tan,gray,gray,gray,gray,gray,tan,tan,tan,tan,tan,tan,tan,gray,gray,gray,tan,tan,tan,tan,tan,
+row11:tan,tan,tan,tan,tan,gray,gray,tan,tan,tan,tan,tan,tan,tan,tan,tan,gray,gray,tan,gray,gray,tan,tan,tan,tan,
+row12:tan,tan,tan,tan,tan,gray,gray,tan,tan,tan,tan,tan,tan,tan,tan,gray,gray,tan,tan,tan,gray,gray,tan,tan,tan,
+row13:tan,tan,tan,tan,tan,gray,gray,tan,tan,tan,tan,tan,tan,tan,gray,gray,tan,tan,tan,tan,tan,gray,gray,tan,tan,
+row14:tan,tan,tan,tan,tan,gray,gray,tan,tan,tan,tan,tan,tan,tan,gray,tan,tan,tan,tan,tan,tan,tan,gray,tan,tan,
+row15:tan,tan,tan,tan,tan,tan,tan,tan,tan,tan,tan,tan,tan,tan,tan,tan,tan,tan,tan,tan,tan,tan,tan,tan,tan,
+row16:tan,tan,tan,tan,tan,tan,tan,tan,tan,tan,tan,tan,tan,tan,tan,tan,tan,tan,tan,tan,tan,tan,tan,tan,tan,
+row17:tan,tan,tan,tan,tan,tan,tan,tan,tan,tan,tan,tan,tan,tan,tan,tan,tan,tan,tan,tan,tan,tan,tan,tan,tan,
+row18:tan,tan,tan,tan,tan,tan,tan,tan,tan,tan,tan,tan,tan,tan,tan,tan,tan,tan,tan,tan,tan,tan,tan,tan,tan,
+row19:tan,tan,tan,tan,tan,tan,tan,tan,tan,tan,tan,tan,tan,tan,tan,tan,tan,tan,tan,tan,tan,tan,tan,tan,tan,

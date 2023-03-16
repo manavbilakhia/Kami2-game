@@ -1,0 +1,33 @@
+plugins {
+  id 'java'
+  id 'application'
+  id 'org.openjfx.javafxplugin' version '0.0.13'
+  }
+
+mainClassName = "edu.union.maingame.game.KamiApp"
+//mainClassName = "edu.union.maingame.game.file_io.BoardIO"
+test {
+  useJUnit()
+
+  include '**/*Suite.class'
+}
+
+javafx {
+    version = "19"
+    modules = [ 'javafx.controls', 'javafx.media' ]
+}
+
+dependencies {
+    implementation 'com.googlecode.json-simple:json-simple:1.1.1'
+    testImplementation 'junit:junit:4.12'
+}
+
+
+sourceCompatibility = 1.8
+
+repositories {
+    mavenCentral()
+}
+
+
+
